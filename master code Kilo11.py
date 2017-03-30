@@ -6,4 +6,7 @@ print("Then 12:54")
 print("Followed by 12:57")
 print("And finally at 1:00")
 print("The first year group is....")
-import random
+"""import random 
+for x in range(0, 6): 
+  random_number = random.randint(0, 6) 
+  print(random_number)"""
