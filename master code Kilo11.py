@@ -10,3 +10,9 @@ import random
 for x in range(0, 6):
   random_number = random.randint(0, 6)
   print(random_number)
+"""This is another code that gives a random number
+import random
+
+  number=random.random()
+  number=6*number
+  print(int(number))
