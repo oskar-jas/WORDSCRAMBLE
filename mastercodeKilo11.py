@@ -16,3 +16,4 @@ import random
   number=random.random()
   number=6*number
   print(int(number))
+"""
