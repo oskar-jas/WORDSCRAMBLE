@@ -17,3 +17,4 @@ import random
   number=6*number
   print(int(number))
 """
+#Was trying to make a code that doesnt give 2 numbers twice but i havent made a successful one yet
