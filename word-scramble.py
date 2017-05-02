@@ -1,4 +1,7 @@
+from time import sleep
 score = 0
+print("WELCOME TO....")
+sleep(2)
 print(" _    _  _________________ ")
 print("| |  | ||  _  | ___ |  _  |")
 print("| |  | || | | | |_/ / | | |")
@@ -12,3 +15,12 @@ print("\ `--.| /  \/| |_/ / /_\ \| .  . || |_/ / |    | |__  ")
 print(" `--. \ |    |    /|  _  || |\/| || ___ \ |    |  __| ")
 print("/\__/ / \__/\| |\ \| | | || |  | || |_/ / |____| |___ ")
 print("\____/ \____/\_| \_\_| |_/\_|  |_/\____/\_____/\____/ ")
+sleep(2)
+print("Make a word out of the letters given")
+print("You MUST use all of the letters given")
+print("If you make the correct word you will be awarded one point")
+print("If you get it wrong")
+
+print("Your letters are ")
+Q=input("E, N, P ")
+if Q
