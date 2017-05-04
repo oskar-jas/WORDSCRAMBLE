@@ -41,7 +41,17 @@ def easy():
     print("WRONG!")
 
   print("You have " + str(score) + " point/s")
+  
+def medium():
+  score = 0
 
+  
+  
+def hard():
+  score = 0  
+  
+  
+  
 print("WELCOME TO....")
 sleep(2)
 print(" _    _  _________________ ")
@@ -93,8 +103,17 @@ print("Choose your difficulty")
 sleep(2)
 print("")
 
-diff=input("Easy, Medium, Hard")
+diff=input("Easy, Medium, Hard ")
 
-if diff=="Easy":
-  print("You chose Easy")
+if diff=="EASY":
+  print("You chose EASY")
   easy()
+
+elif diff=="MEDIUM":
+  print("You chose MEDIUM")
+  medium()
+  
+elif diff=="HARD":
+  print("You chose HARD")
+  hard()
+  
