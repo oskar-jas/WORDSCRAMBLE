@@ -79,4 +79,19 @@ elif answer=="GUH":
 else:
   print("WRONG!")
 
+answer=input("Your letters are: U,R,O,F")
+
+if answer=="FOUR":  
+  print("CORRECT!")  
+  score = score +1
+
+elif answer=="GUH":  
+  print("WRONG!")
+
+else:  
+  print("WRONG!")
+
 print("You have " + str(score) + " point/s")
+
+  
+  
