@@ -1,5 +1,47 @@
 from time import sleep
-score = 0
+
+def easy():
+  score = 0
+  answer=input("Your letters are: N,P,E")
+
+  if answer=="PEN":
+    print("CORRECT!")
+    score = score +1
+
+  elif answer=="NEP":
+    print("WRONG!")
+
+  else:
+    print("WRONG!")
+
+  print("")
+
+  answer=input("Your letters are: H,G,U")
+
+  if answer=="HUG":
+    print("CORRECT!")
+    score = score +1
+
+  elif answer=="GUH":
+    print("WRONG!")
+
+  else:
+    print("WRONG!")
+
+  answer=input("Your letters are: U,R,O,F")
+
+  if answer=="FOUR": 
+    print("CORRECT!") 
+    score = score +1
+
+  elif answer=="OURF":
+    print("WRONG!")
+
+  else:
+    print("WRONG!")
+
+  print("You have " + str(score) + " point/s")
+
 print("WELCOME TO....")
 sleep(2)
 print(" _    _  _________________ ")
@@ -47,51 +89,12 @@ print("")
 print("You MUST answer using CAPITAL LETTERS")
 sleep(2)
 print("")
-print("First question")
+print("Choose your difficulty")
 sleep(2)
 print("")
 
-answer=input("Your letters are: N,P,E")
+diff=input("Easy, Medium, Hard")
 
-if answer=="PEN":
-  print("CORRECT!")
-  score = score +1
-
-elif answer=="NEP":
-  print("WRONG!")
-
-else:
-  print("WRONG!")
-
-print("You have " + str(score) + " point/s")
-
-print("")
-
-answer=input("Your letters are: H,G,U")
-
-if answer=="HUG":
-  print("CORRECT!")
-  score = score +1
-
-elif answer=="GUH":
-  print("WRONG!")
-
-else:
-  print("WRONG!")
-
-answer=input("Your letters are: U,R,O,F")
-
-if answer=="FOUR":  
-  print("CORRECT!")  
-  score = score +1
-
-elif answer=="GUH":  
-  print("WRONG!")
-
-else:  
-  print("WRONG!")
-
-print("You have " + str(score) + " point/s")
-
-  
-  
+if diff=="Easy":
+  print("You chose Easy")
+  easy()
