@@ -28,6 +28,8 @@ def easy():
   else:
     print("WRONG!")
 
+  print("")
+
   answer=input("Your letters are: U,R,O,F")
 
   if answer=="FOUR": 
@@ -39,11 +41,14 @@ def easy():
 
   else:
     print("WRONG!")
-    
+  
+  print("")	
+  
   answer=input("Your letters are: E,D,R")
   
   if answer=="RED":
   	print("CORRECT!")
+	score = score +1
   
   elif answer=="ERD":
   	print("WRONG!")
@@ -57,6 +62,7 @@ def easy():
 
   if answer=="OUR":
   	print("CORRECT!")
+	score = score +1
   
   elif answer=="ROU":
   	print("WRONG!")
@@ -70,6 +76,7 @@ def easy():
 
   if answer=="BAG":
   	print("CORRECT!")
+	score = score +1
     
   elif answer=="GAB":
   	print("WRONG!")
