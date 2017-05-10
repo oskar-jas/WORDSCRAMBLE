@@ -83,6 +83,14 @@ def easy():
   
   else:
   	print('WRONG!')
+answer=input("Your letters are: I,B,N")
+if answer=="BIN":
+	print("correct!")
+	score = score +1
+elif answer=="NIB":
+	print("wrong")
+else:
+	print("wrong")
 
   print("You have " + str(score) + " point/s")
   
