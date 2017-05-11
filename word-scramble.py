@@ -91,7 +91,13 @@ elif answer=="NIB":
 	print("wrong")
 else:
 	print("wrong")
-
+answer=input("Your letters are: E,Y,S")
+if answer=="YES":
+	print("correct!")
+elif answer=="EYS":
+	print("wrong!")
+else:
+	print("wrong!")
   print("You have " + str(score) + " point/s")
   
 def medium():
