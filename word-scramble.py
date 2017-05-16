@@ -1,5 +1,5 @@
 from time import sleep
-import sound
+import sound #this only works in pythonista
 
 def easy():
   score = 0
