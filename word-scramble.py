@@ -1,18 +1,23 @@
 from time import sleep
+import sound #this only works in pythonista
 
 def easy():
   score = 0
+  print("")
   answer=input("Your letters are: N,P,E")
 
   if answer=="PEN":
     print("CORRECT!")
     score = score +1
+    sound.play_effect('game:Ding_3')
 
   elif answer=="NEP":
     print("WRONG!")
+    sound.play_effect('game:Error')
 
   else:
     print("WRONG!")
+    sound.play_effect('game:Error')
 
   print("")
 
@@ -21,12 +26,15 @@ def easy():
   if answer=="HUG":
     print("CORRECT!")
     score = score +1
+    sound.play_effect('game:Ding_3')
 
   elif answer=="GUH":
     print("WRONG!")
+    sound.play_effect('game:Error')
 
   else:
     print("WRONG!")
+    sound.play_effect('game:Error')
 
   print("")
 
@@ -35,12 +43,15 @@ def easy():
   if answer=="FOUR": 
     print("CORRECT!") 
     score = score +1
+    sound.play_effect('game:Ding_3')
 
   elif answer=="OURF":
     print("WRONG!")
+    sound.play_effect('game:Error')
 
   else:
     print("WRONG!")
+    sound.play_effect('game:Error')
   
   print("")	
   
@@ -48,13 +59,16 @@ def easy():
   
   if answer=="RED":
   	print("CORRECT!")
-	score = score +1
+  	score = score +1
+  	sound.play_effect('game:Ding_3')
   
   elif answer=="ERD":
   	print("WRONG!")
+  	sound.play_effect('game:Error')
   
   else:
   	print('WRONG!')
+  	sound.play_effect('game:Error')
 	
   print("")
 
@@ -62,13 +76,16 @@ def easy():
 
   if answer=="OUR":
   	print("CORRECT!")
-	score = score +1
+  	score = score +1
+  	sound.play_effect('game:Ding_3')
   
   elif answer=="ROU":
   	print("WRONG!")
+  	sound.play_effect('game:Error')
   
   else:
   	print('WRONG!')
+  	sound.play_effect('game:Error')
 	
   print("")
 
@@ -76,21 +93,50 @@ def easy():
 
   if answer=="BAG":
   	print("CORRECT!")
-	score = score +1
+  	score = score +1
+  	sound.play_effect('game:Ding_3')
     
   elif answer=="GAB":
   	print("WRONG!")
+  	sound.play_effect('game:Error')
   
   else:
   	print('WRONG!')
-answer=input("Your letters are: I,B,N")
-if answer=="BIN":
-	print("correct!")
-	score = score +1
-elif answer=="NIB":
-	print("wrong")
-else:
-	print("wrong")
+  	sound.play_effect('game:Error')
+  	
+  print("")
+  	
+  answer=input("Your letters are: I,B,N")
+  
+  if answer=="BIN":
+  	print("CORRECT!")
+  	score = score +1
+  	sound.play_effect('game:Ding_3')
+  	
+  elif answer=="NIB":
+  	print("WRONG!")
+  	sound.play_effect('game:Error')
+  	
+  else:
+  	print("WRONG!")
+  	sound.play_effect('game:Error')
+  	
+  print("")
+  	
+  answer=input("Your letters are: E,Y,S")
+  
+  if answer=="YES":
+  	print("CORRECT!")
+  	score = score +1
+  	sound.play_effect('game:Ding_3')
+  	
+  elif answer=="EYS":
+  	print("WRONG!")
+  	sound.play_effect('game:Error')
+  	
+  else:
+  	print("WRONG!")
+  	sound.play_effect('game:Error')
 
   print("You have " + str(score) + " point/s")
   
@@ -168,4 +214,3 @@ elif diff=="MEDIUM":
 elif diff=="HARD":
   print("You chose HARD")
   hard()
-  
