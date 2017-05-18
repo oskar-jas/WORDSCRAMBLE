@@ -138,9 +138,9 @@ def easy():
   	print("WRONG!")
   	sound.play_effect('game:Error')
 	
-  answer=input("Your letters are: H,G,U")
+  answer=input("Your letters are: S,E,U")
 
-  if answer=="E,U,S":
+  if answer=="USE":
     print("CORRECT!")
     score = score +1
     sound.play_effect('game:Ding_3')
