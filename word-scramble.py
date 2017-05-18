@@ -137,6 +137,39 @@ def easy():
   else:
   	print("WRONG!")
   	sound.play_effect('game:Error')
+	
+  answer=input("Your letters are: H,G,U")
+
+  if answer=="E,U,S":
+    print("CORRECT!")
+    score = score +1
+    sound.play_effect('game:Ding_3')
+
+  elif answer=="UES":
+    print("WRONG!")
+    sound.play_effect('game:Error')
+
+  else:
+    print("WRONG!")
+    sound.play_effect('game:Error')
+
+  print("")
+  answer=input("Your letters are: Y,T,O")
+
+  if answer=="TOY":
+    print("CORRECT!")
+    score = score +1
+    sound.play_effect('game:Ding_3')
+
+  elif answer=="YOT":
+    print("WRONG!")
+    sound.play_effect('game:Error')
+
+  else:
+    print("WRONG!")
+    sound.play_effect('game:Error')
+
+  print("")
 
   print("You have " + str(score) + " point/s")
   
