@@ -175,6 +175,175 @@ def easy():
   
 def medium():
   score = 0
+  answer=input("Your letters are: R,W,D,O")
+
+  if answer=="WORD":
+  	print("CORRECT!")
+  	score = score +1
+  	sound.play_effect('game:Ding_3')
+  
+  elif answer=="DORW":
+  	print("WRONG!")
+  	sound.play_effect('game:Error')
+  
+  else:
+  	print('WRONG!')
+  	sound.play_effect('game:Error')
+	
+  print("")
+
+  answer=input("Your letters are: K,D,C,E")
+
+  if answer=="DECK":
+  	print("CORRECT!")
+  	score = score +1
+  	sound.play_effect('game:Ding_3')
+  
+  elif answer=="CKED":
+  	print("WRONG!")
+  	sound.play_effect('game:Error')
+  
+  else:
+  	print('WRONG!')
+  	sound.play_effect('game:Error')
+	
+  print("")
+
+  answer=input("Your letters are: M,A,R,S,T")
+
+  if answer=="SMART":
+  	print("CORRECT!")
+  	score = score +1
+  	sound.play_effect('game:Ding_3')
+  
+  elif answer=="RASTM":
+  	print("WRONG!")
+  	sound.play_effect('game:Error')
+  
+  else:
+  	print('WRONG!')
+  	sound.play_effect('game:Error')
+	
+  print("")
+
+  answer=input("Your letters are: H,S,O,U,E")
+
+  if answer=="HOUSE":
+  	print("CORRECT!")
+  	score = score +1
+  	sound.play_effect('game:Ding_3')
+  
+  elif answer=="SOUHE":
+  	print("WRONG!")
+  	sound.play_effect('game:Error')
+  
+  else:
+  	print('WRONG!')
+  	sound.play_effect('game:Error')
+	
+  print("")
+  
+  answer=input("Your letters are: D,C,O,E")
+
+  if answer=="CODE":
+  	print("CORRECT!")
+  	score = score +1
+  	sound.play_effect('game:Ding_3')
+  
+  elif answer=="DOCE":
+  	print("WRONG!")
+  	sound.play_effect('game:Error')
+  
+  else:
+  	print('WRONG!')
+  	sound.play_effect('game:Error')
+	
+  print("")
+
+  answer=input("Your letters are: S,P,T,E,A")
+
+  if answer=="PASTE":
+  	print("CORRECT!")
+  	score = score +1
+  	sound.play_effect('game:Ding_3')
+  
+  elif answer=="TASEP":
+  	print("WRONG!")
+  	sound.play_effect('game:Error')
+  
+  else:
+  	print('WRONG!')
+  	sound.play_effect('game:Error')
+	
+  print("")
+
+  answer=input("Your letters are: R,O,R,E,R")
+
+  if answer=="ERROR":
+  	print("CORRECT!")
+  	score = score +1
+  	sound.play_effect('game:Ding_3')
+  
+  elif answer=="RORRE":
+  	print("WRONG!")
+  	sound.play_effect('game:Error')
+  
+  else:
+  	print('WRONG!')
+  	sound.play_effect('game:Error')
+	
+  print("")
+
+  answer=input("Your letters are: H,R,E,T,A")
+
+  if answer=="HEART":
+  	print("CORRECT!")
+  	score = score +1
+  	sound.play_effect('game:Ding_3')
+  
+  elif answer=="TREAH":
+  	print("WRONG!")
+  	sound.play_effect('game:Error')
+  
+  else:
+  	print('WRONG!')
+  	sound.play_effect('game:Error')
+	
+  print("")
+
+  answer=input("Your letters are: L,N,E,I")
+
+  if answer=="LINE":
+  	print("CORRECT!")
+  	score = score +1
+  	sound.play_effect('game:Ding_3')
+  
+  elif answer=="NILE":
+  	print("WRONG!")
+  	sound.play_effect('game:Error')
+  
+  else:
+  	print('WRONG!')
+  	sound.play_effect('game:Error')
+	
+  print("")
+
+  answer=input("Your letters are: R,T,U,N,R,E")
+
+  if answer=="RETURN":
+  	print("CORRECT!")
+  	score = score +1
+  	sound.play_effect('game:Ding_3')
+  
+  elif answer=="TUNRER":
+  	print("WRONG!")
+  	sound.play_effect('game:Error')
+  
+  else:
+  	print('WRONG!')
+  	sound.play_effect('game:Error')
+	
+  print("")
 
   
   
