@@ -4,7 +4,7 @@ import sound #this only works in pythonista
 def easy():
   score = 0
   print("")
-  answer=input("Your letters are: N,P,E")
+  answer=input("Your letters are: N,P,E :")
 
   if answer=="PEN":
     print("CORRECT!")
@@ -21,7 +21,7 @@ def easy():
 
   print("")
 
-  answer=input("Your letters are: H,G,U")
+  answer=input("Your letters are: H,G,U :")
 
   if answer=="HUG":
     print("CORRECT!")
@@ -38,7 +38,7 @@ def easy():
 
   print("")
 
-  answer=input("Your letters are: U,R,O,F")
+  answer=input("Your letters are: U,R,O,F :")
 
   if answer=="FOUR": 
     print("CORRECT!") 
@@ -55,7 +55,7 @@ def easy():
   
   print("")	
   
-  answer=input("Your letters are: E,D,R")
+  answer=input("Your letters are: E,D,R :")
   
   if answer=="RED":
   	print("CORRECT!")
@@ -72,7 +72,7 @@ def easy():
 	
   print("")
 
-  answer=input("Your letters are: O,R,U")
+  answer=input("Your letters are: O,R,U :")
 
   if answer=="OUR":
   	print("CORRECT!")
@@ -89,7 +89,7 @@ def easy():
 	
   print("")
 
-  answer=input("Your letters are: G,B,A")
+  answer=input("Your letters are: G,B,A :")
 
   if answer=="BAG":
   	print("CORRECT!")
@@ -106,7 +106,7 @@ def easy():
   	
   print("")
   	
-  answer=input("Your letters are: I,B,N")
+  answer=input("Your letters are: I,B,N :")
   
   if answer=="BIN":
   	print("CORRECT!")
@@ -123,7 +123,7 @@ def easy():
   	
   print("")
   	
-  answer=input("Your letters are: E,Y,S")
+  answer=input("Your letters are: E,Y,S :")
   
   if answer=="YES":
   	print("CORRECT!")
@@ -138,7 +138,9 @@ def easy():
   	print("WRONG!")
   	sound.play_effect('game:Error')
 	
-  answer=input("Your letters are: S,E,U")
+  print("")
+	
+  answer=input("Your letters are: S,E,U :")
 
   if answer=="USE":
     print("CORRECT!")
@@ -154,7 +156,7 @@ def easy():
     sound.play_effect('game:Error')
 
   print("")
-  answer=input("Your letters are: Y,T,O")
+  answer=input("Your letters are: Y,T,O :")
 
   if answer=="TOY":
     print("CORRECT!")
@@ -175,7 +177,8 @@ def easy():
   
 def medium():
   score = 0
-  answer=input("Your letters are: R,W,D,O")
+  print("")
+  answer=input("Your letters are: R,W,D,O :")
 
   if answer=="WORD":
   	print("CORRECT!")
@@ -192,7 +195,7 @@ def medium():
 	
   print("")
 
-  answer=input("Your letters are: K,D,C,E")
+  answer=input("Your letters are: K,D,C,E :")
 
   if answer=="DECK":
   	print("CORRECT!")
@@ -209,7 +212,7 @@ def medium():
 	
   print("")
 
-  answer=input("Your letters are: M,A,R,S,T")
+  answer=input("Your letters are: M,A,R,S,T :")
 
   if answer=="SMART":
   	print("CORRECT!")
@@ -226,7 +229,7 @@ def medium():
 	
   print("")
 
-  answer=input("Your letters are: H,S,O,U,E")
+  answer=input("Your letters are: H,S,O,U,E :")
 
   if answer=="HOUSE":
   	print("CORRECT!")
@@ -243,7 +246,7 @@ def medium():
 	
   print("")
   
-  answer=input("Your letters are: D,C,O,E")
+  answer=input("Your letters are: D,C,O,E :")
 
   if answer=="CODE":
   	print("CORRECT!")
@@ -260,7 +263,7 @@ def medium():
 	
   print("")
 
-  answer=input("Your letters are: S,P,T,E,A")
+  answer=input("Your letters are: S,P,T,E,A :")
 
   if answer=="PASTE":
   	print("CORRECT!")
@@ -277,7 +280,7 @@ def medium():
 	
   print("")
 
-  answer=input("Your letters are: R,O,R,E,R")
+  answer=input("Your letters are: R,O,R,E,R :")
 
   if answer=="ERROR":
   	print("CORRECT!")
@@ -294,7 +297,7 @@ def medium():
 	
   print("")
 
-  answer=input("Your letters are: H,R,E,T,A")
+  answer=input("Your letters are: H,R,E,T,A :")
 
   if answer=="HEART":
   	print("CORRECT!")
@@ -311,7 +314,7 @@ def medium():
 	
   print("")
 
-  answer=input("Your letters are: L,N,E,I")
+  answer=input("Your letters are: L,N,E,I :")
 
   if answer=="LINE":
   	print("CORRECT!")
@@ -328,7 +331,7 @@ def medium():
 	
   print("")
 
-  answer=input("Your letters are: R,T,U,N,R,E")
+  answer=input("Your letters are: R,T,U,N,R,E :")
 
   if answer=="RETURN":
   	print("CORRECT!")
@@ -345,12 +348,15 @@ def medium():
 	
   print("")
 
-  
+  print("You have " + str(score) + " point/s")
   
 def hard():
   score = 0  
-  
-  
+
+
+
+
+  print("You have " + str(score) + " point/s")
   
 print("WELCOME TO....")
 sleep(2)
