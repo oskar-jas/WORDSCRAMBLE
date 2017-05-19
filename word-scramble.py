@@ -138,6 +138,8 @@ def easy():
   	print("WRONG!")
   	sound.play_effect('game:Error')
 	
+  print("")
+	
   answer=input("Your letters are: S,E,U :")
 
   if answer=="USE":
