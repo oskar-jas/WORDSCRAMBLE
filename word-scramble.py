@@ -177,6 +177,7 @@ def easy():
   
 def medium():
   score = 0
+  print("")
   answer=input("Your letters are: R,W,D,O :")
 
   if answer=="WORD":
