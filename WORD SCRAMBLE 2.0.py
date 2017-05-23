@@ -408,7 +408,7 @@ while True:
 
 	  print("")
   
-	  answer=input("Your letters are: ,P,C,I,E,T,H,Y,R,O")
+	  answer=input("Your letters are: P,C,I,E,T,H,Y,R,O")
     
 	  if answer=="HYPOCRITE":
 	    print("CORRECT!")
@@ -493,7 +493,7 @@ while True:
 
 	  print("")
   
-	  answer=input("Your letters are: E,L,E,P,O,H,N,E,E,L,T,E")
+	  answer=input("Your letters are: P,O,H,N,E,E,L,T,E")
 
 	  if answer=="TELEPHONE":
 	    print("CORRECT!")
@@ -510,7 +510,7 @@ while True:
 
 	  print("")
   
-	  answer=input("Your letters are: ,S,D,I,E,U,T,O")
+	  answer=input("Your letters are: S,D,I,E,U,T,O")
 
 	  if answer=="OUTSIDE":
 	    print("CORRECT!")
